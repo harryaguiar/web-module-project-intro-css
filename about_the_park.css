@@ -2,11 +2,11 @@ h2 {
     margin: 2rem;
     font-size: 2rem;
     font-weight: bold;
-    color: rgb(199, 82, 47);
+    color: rgb(25, 144, 168);
 }
 
 .main_text {
-    background-color: rgb(252, 138, 103);
+    background-color: rgb(47, 182, 209);
     /* display: inline-block; */
     /* margin: 5rem; */
     padding: 1.5rem;
@@ -14,8 +14,8 @@ h2 {
     width: 100%;
     line-height: 2rem;
     color: white;
-    border-radius: 10%;
     /* text-align: justify; */
+    border-radius: 15%;
 }
 
 .main_text ol {
