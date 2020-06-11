@@ -1,0 +1,35 @@
+.main_text {
+    background-color: #DDB9A3;
+    /* display: inline-block; */
+    /* margin: 5rem; */
+    padding: 1.5rem;
+    max-width: 100%;
+    width: 100%;
+    line-height: 2rem;
+    color: white;
+    /* text-align: justify; */
+}
+
+.main_text ol {
+    list-style: none;
+    padding: .5rem 2rem;
+    color: rgb(1, 78, 11);
+  }
+
+.main_text ol li {
+    list-style-type: decimal;
+    display: list-item;
+    text-align: justify;
+    
+    
+  }
+  
+ .main_text_title {
+    font-size: 1.5rem;
+    text-align: center;
+    
+ }
+ 
+ footer {
+     margin-top: 2rem;
+ }
