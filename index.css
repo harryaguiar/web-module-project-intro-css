@@ -85,9 +85,24 @@ header nav a, footer nav a {
     line-height: 1.5rem;
   }
 
+header nav a:hover, footer nav a:hover {
+    animation: pulse 3s infinite;
+}
+
+@keyframes pulse {
+    0% {
+      background-color: rgb(0, 0, 0);
+    }
+    100% {
+      background-color: rgb(0, 192, 10);
+    }
+  }
+
 a.plan_your_visit {
     background-color: #FF764E;
 }
+
+
 
 a.learn_about_the_park {
     background-color: #5ED3EB;
