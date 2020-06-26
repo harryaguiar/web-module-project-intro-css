@@ -1,0 +1,43 @@
+h2 {
+    margin: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(219, 161, 44);
+}
+
+.main_text {
+    background-color: rgb(240, 183, 69);
+    /* display: inline-block; */
+    /* margin: 5rem; */
+    padding: 1.5rem;
+    max-width: 100%;
+    width: 100%;
+    line-height: 2rem;
+    color: white;
+    /* text-align: justify; */
+    border-radius: 15%;
+}
+
+.main_text ol {
+    list-style: none;
+    padding: .5rem 2rem;
+
+  }
+
+.main_text ol li {
+    list-style-type: decimal;
+    display: list-item;
+    text-align: justify;
+    
+    
+  }
+  
+ .main_text_title {
+    font-size: 1.5rem;
+    text-align: center;
+    
+ }
+ 
+ footer {
+     margin-top: 2rem;
+ }

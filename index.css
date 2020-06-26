@@ -1,0 +1,235 @@
+/*----------- CSS reset ----------*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+nav{
+    display: inline-block;
+}
+
+/*-------------- Code starts ------------*/
+
+*{
+    box-sizing: border-box;
+}
+html{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    
+
+}
+header nav a, footer nav a {
+    border: .5px solid lightgray;
+    padding: .2rem 1rem;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    margin: 2rem 4rem;
+    width: 9rem;
+    line-height: 1.5rem;
+  }
+
+header nav a:hover, footer nav a:hover {
+    animation: pulse 3s infinite;
+}
+
+@keyframes pulse {
+    0% {
+      background-color: rgb(0, 0, 0);
+    }
+    100% {
+      background-color: rgb(0, 192, 10);
+    }
+  }
+
+a.plan_your_visit {
+    background-color: #FF764E;
+}
+
+
+
+a.learn_about_the_park {
+    background-color: #5ED3EB;
+}
+
+a.get_involved {
+    background-color: #FFCD69;
+}
+
+.container {
+    
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    display: flex;
+    flex-direction: column;
+    font-size: 3rem;
+}
+
+h1 a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+h1 a:hover{
+    text-decoration: none;
+    color: rgb(15, 129, 0);
+}
+
+.header_text {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 2rem;
+}
+
+.header_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title_picture {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+}
+
+.header_text h1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    float: right;
+    margin: 2rem;
+   
+}
+
+
+.header_text p{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    float: right;
+    line-height: 1.3rem;
+    
+}
+
+.main_text {
+    background-color: #DDB9A3;
+    /* display: inline-block; */
+    /* margin: 5rem; */
+    padding: 1.5rem;
+    max-width: 100%;
+    width: 100%;
+    line-height: 1.5rem;
+    color: white;
+    /* text-align: justify; */
+}
+
+.main_text ol {
+    list-style: none;
+    padding: .5rem 2rem;
+  }
+
+.main_text ol li {
+    list-style-type: decimal;
+    display: list-item;
+    text-align: justify;
+    
+  }  
+
+.icon_text p{
+    text-align: center;
+    width: 20rem;
+    margin: 0 auto 5rem;
+    line-height: 1.5rem;
+}
+
+.bondfire, .car {
+    display: block;
+    margin: 1rem auto;
+    width: 10rem;
+    height: 10rem;
+}
+
+
+b {
+  font-weight: bold;  
+}
+
+
+
+
+
+footer {
+    background-color: #F9E7DC;
+    
+}
+
+footer img{
+    height: 15rem;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 20%;
+}
